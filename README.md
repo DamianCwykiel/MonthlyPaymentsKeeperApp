@@ -6,7 +6,7 @@
 * Styling of background comes form https://unsplash.com.
 * MonthlyPaymentsKeeperApp has written in JS libraby - React with Redux, Babel, Webpack, Firebase, Node-sass, Airbnb 
 and all needed plugins/tools which you can find in the project.
-* The app is styled in SASSheroku open and tested in Jest. 
+* The app is styled in SASS and tested in Jest. 
 * MonthlyPaymentsKeeperApp is a tool to save and rewrite your invoices keeping in one place.
 * The user connects with google Firebse via a gmail account and passes through verify Firebase authorisation which allows him to
 access only to his own database/ list of saved data.     
@@ -18,7 +18,7 @@ access only to his own database/ list of saved data.
 * run npm/yarn install
 * run npm start (npm start server) or
 * npm run dev-server
-* visit localhost:3000
+* visit localhost:3000 or localhost:8080
 * ex.path(/desktop/MonthlyPaymentsKeeperApp/npm start)
 
 * or visit - https://react-payment-app.herokuapp.com/
