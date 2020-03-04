@@ -16,9 +16,10 @@ access only to his own database/ list of saved data.
 
 * clone the repository
 * run npm/yarn install
-* run npm start (npm start server)
+* run npm start (npm start server) or
+* npm run dev-server
 * visit localhost:3000
 * ex.path(/desktop/MonthlyPaymentsKeeperApp/npm start)
 
-* or visit - 
+* or visit - https://react-payment-app.herokuapp.com/
 
