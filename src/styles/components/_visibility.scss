@@ -1,0 +1,13 @@
+.see-on-mobile {
+    @media(min-width: $desktop-breakpoint) {
+        display: none;
+    }
+}
+
+.see-on-desktop {
+    font-weight: 800;
+    color: $d-blue;
+    @media(max-width: $desktop-breakpoint - .01rem) {
+        display: none;
+    }
+}

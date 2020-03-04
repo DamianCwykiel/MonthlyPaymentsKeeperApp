@@ -1,0 +1,55 @@
+.login-button {
+    background: $blue;
+    border: 2px solid $blue;
+    border-radius: 5%;
+    color: $black;
+    display: inline-block;
+    font-size: $font-size-large; 
+    font-weight: 800;
+    height: 8rem;
+    line-height: 1;
+    margin-top: $xl-size;
+    text-decoration: none;
+    width: 22rem;
+    transition: background .3s $royalblue;
+    &:hover{
+        background: $royalblue;
+    }
+}
+
+.create-button {
+    @extend .login-button;
+    align-content: center;
+    background: $skyblue;
+    font-weight: 800;
+    padding-top: 3rem;
+    margin: $xl-size auto;
+    transition: background .3s $royalblue; 
+    &:hover{
+        background: $royalblue; 
+    }
+}
+
+.button--link {
+    background: none;
+}
+
+.save-button{
+    @extend .login-button;
+    background: $l-green;
+    border: 2px solid $d-green;
+    transition: background 0.3s $m-green;
+    &:hover{
+        background: $m-green;
+    }
+}
+
+.remove-button {
+    background: $l-gray;
+    border: 2px solid $m-gray;
+    margin: 2rem 0;
+    transition: background .3s $d-gray;
+    &:hover{
+        background: $d-gray; 
+    }
+}

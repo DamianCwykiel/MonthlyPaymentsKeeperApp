@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseLoginPage 1`] = `
+<div>
+  <h1>
+    LoginPage
+  </h1>
+  <p>
+    Use your login to enter main payments page
+  </p>
+  <button>
+    Login
+  </button>
+</div>
+`;

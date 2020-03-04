@@ -1,0 +1,31 @@
+.box-layout{
+    align-items: center;
+    background: url('/images/bgc-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    overflow:hidden;
+    width: 100vw;
+}
+
+.box-layout__box{
+    background-color: fade-out($skyblue, .7);
+    border-radius: 3px;
+    height: 50rem;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 50rem;
+}
+
+.box-layout__title{
+    line-height: 7;
+    margin: 0 0 $m-size 0;
+}
+
+.box-layout__subtitle {
+    color: $black;
+    font-size: $font-size-medium;
+    font-weight: 600;
+    margin-top: -7rem;
+}

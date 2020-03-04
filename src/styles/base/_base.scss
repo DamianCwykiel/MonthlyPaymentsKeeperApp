@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 40%;
+    @media (min-width: $desktop-breakpoint){
+        font-size: 63%;
+    }
+}
+
+body {
+    background: url('/images/bgc-2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: $black; 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    height: 100vh;
+    line-height: 4;
+    overflow-x: hidden;
+    width: 100vw;
+    @media (min-width: $desktop-breakpoint) {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+}
+
+h1 {
+    font-size: $l-size; //1rem=16px
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}

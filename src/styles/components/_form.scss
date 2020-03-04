@@ -1,0 +1,24 @@
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    > * {
+        margin-bottom: $m-size;
+        width: 50vw;
+    }
+}
+
+.form__error {
+    background: $darker-white;
+    border: 1px solid darken($darker-white, 30%); 
+    color: $crimson;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 180%;
+    margin: 0 0 $m-size 0;
+    text-align:center;
+    @media (min-width: $desktop-breakpoint){
+        font-size: 15px;
+        font-weight: 700;
+    }
+}

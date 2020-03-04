@@ -1,0 +1,47 @@
+.page-header {
+    background-color: $darker-white;
+    margin-bottom: $xl-size;
+    padding: 5rem 0 0 0;
+}
+
+.page-header__title {
+    font-size: 25px;
+    line-height: 120%;
+    margin: 0 auto;
+    text-align: center;
+    width: 50vw;
+    span {
+        color: $crimson;
+        font-weight: 800;
+    }
+}
+
+.page-header__add {
+    @extend .page-header;
+    height: 15rem;
+    padding: 3rem 0;
+    @media (min-width: $desktop-breakpoint){
+        height: 10rem;
+    }
+}
+
+.page-header__title-add {
+    @extend .page-header__title;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.page-header__action {
+    margin-top: $l-size;
+}
+
+.page-header-about-app {
+    @extend .page-header;
+    border: 1px solid darken($darker-white, 30%); 
+    height: 70vh;
+    line-height: 250%;
+    margin: 1rem auto;
+    overflow-y: scroll;
+    padding: 7rem 10rem;
+    width: 90vw;
+}

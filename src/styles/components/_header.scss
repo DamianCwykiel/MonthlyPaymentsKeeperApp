@@ -1,0 +1,58 @@
+.header {
+    background: $darkblue;
+    max-height: 45rem;
+    @media (min-width: $desktop-breakpoint){
+        max-height: 25rem;
+    }
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 $xl-size;
+    @media (min-width: $desktop-breakpoint){
+        flex-direction: row;
+    }
+}
+
+.header__content__about-app {
+    @extend .header__content;
+    justify-content: flex-start;
+}
+
+.header__title {
+    color: $white;
+    text-decoration: none;
+    h1 {
+        font-size: 18px;
+        margin: 0;
+        @media (min-width: $desktop-breakpoint){
+            font-size: 26px;
+        }
+    }
+}
+
+.header__about-app {
+    color: $white;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    padding-left: $m-size;
+    text-align: center;
+    text-decoration: none;
+    width: 20rem;
+    &:hover {
+        text-decoration: underline;
+    }
+    @media(min-width: $desktop-breakpoint) {
+        width: 15rem;
+    }
+}
+
+.navlink-content {
+    align-items: center;
+    margin: 0 auto;
+    width: 80rem;
+}

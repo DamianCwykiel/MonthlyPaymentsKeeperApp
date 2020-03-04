@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should corectly render expensesSummary with 1 expense 1`] = `
+<div>
+  <h1>
+    Check your bills! There are: 
+    1
+     
+    payment
+    . In total that is: 
+    23,55 zł
+    .
+  </h1>
+</div>
+`;
+
+exports[`should corectly render expensesSummary with a few expenses 1`] = `
+<div>
+  <h1>
+    Check your bills! There are: 
+    20
+     
+    payments
+    . In total that is: 
+    12 345 678,90 zł
+    .
+  </h1>
+</div>
+`;
