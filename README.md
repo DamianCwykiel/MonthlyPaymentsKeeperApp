@@ -6,7 +6,7 @@
 * Styling of background comes form https://unsplash.com.
 * MonthlyPaymentsKeeperApp has written in JS libraby - React with Redux, Babel, Webpack, Firebase, Node-sass, Airbnb 
 and all needed plugins/tools which you can find in the project.
-* The app is styled in .SCSS and tested in Jest. 
+* The app is styled in SASSheroku open and tested in Jest. 
 * MonthlyPaymentsKeeperApp is a tool to save and rewrite your invoices keeping in one place.
 * The user connects with google Firebse via a gmail account and passes through verify Firebase authorisation which allows him to
 access only to his own database/ list of saved data.     
