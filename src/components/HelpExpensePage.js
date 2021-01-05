@@ -21,8 +21,8 @@ export const HelpExpensePage = () => (
                     The app styled as a home budget-app allows to add, change or remove created expenses. <br/>
                     The database was placed in the google Firebase and an access to it is via google account login.<br/>
                     In the app an amount in total you can see above of item's list in the header.<br/>
-                    Addidtionally there you can check the currncy amount which was estimated according average 1 € ~ 4.30zł 
-                    (March 2020).<br/>
+                    Addidtionally there you can check the currncy amount which was estimated according average 1 € ~ 4.55zł 
+                    (Jan 2021).<br/>
                     <span>Caution!</span> At the first login don't interrupt the poping up auth window due to fail an authorisation process.<br/>
                     Due to prevent fail the app-page should be refresh or reopen.<br/>
                     In some cases if your browser after click on link below asks for certificate for this page you should click show certificate 
