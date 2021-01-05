@@ -27,7 +27,7 @@ export const HelpExpensePage = () => (
                     Due to prevent fail the app-page should be refresh or reopen.<br/>
                     In some cases if your browser after click on link below asks for certificate for this page you should click show certificate 
                     and add it to your browser certificate list. <br/>
-                    If you want to see more projects like this click - <a href ="https://damiancwykiel-portfolio.pl" target="_blank">here.</a>
+                    If you want to see more projects like this click - <a href ="https://damiancwykiel-website.eu" target="_blank">here.</a>
                 </article>
             </div> 
         </div>  
